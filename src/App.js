@@ -3,6 +3,9 @@ import {Box} from "./components/Box";
 import {useState} from "react";
 
 function App() {
+    /*
+    TODO: add generator based on box number and boxes in this box
+     */
     const [boxes, setBoxes] = useState([{
         id: 0
     }]);
